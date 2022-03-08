@@ -8,7 +8,7 @@
 body{
     width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
     
 }
 .header{
@@ -57,7 +57,7 @@ nav ul li a{
 .imagem{
     max-width: 150px;
     max-height: 200px;  
-    /*border : 2px dotted #6495ED ;*/
+
 }
 .title{
     color: #20B2AA;
@@ -66,20 +66,20 @@ nav ul li a{
      
 }
 .descricao{
+    color: #000;
     height: 60px;
     max-width: 200px;
     text-align: center;
 }
 .categoria{
-    margin-bottom: 10px;
+    color: #00008B;
+    margin: 10px 0 10px 0;
 }
 .container-categoria-imagem{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
-
 }
 .money{
     display: flex;
@@ -111,12 +111,9 @@ span{
     position: relative;
 }
 .texto {
-    /*position: absolute;*/
     background-color: rgba(0,0,0,0.5);
-    /*color:#fff;*/
     text-align: center;
     top: 100px;
-    /*width: 250px;*/
     line-height: 30px;
     height: 30px;
 }
@@ -129,11 +126,13 @@ span{
     border-radius: 10px;
     margin: 20px 0 0 150px;
 }
-.segundaBox{
-    display: flex;
-    flex-direction: row;
-}
 .procura{
     display: flex;
-    margin: 0 0 0 1030px;
+    margin: 2px 0 0 1030px;
+}
+.preco{
+    color:#FF0000;
+}
+.p{
+    display: inline-block;
 }
