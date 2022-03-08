@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('main.css')}}">
-    <title>@yield('title') | Aprovados</title>
+    <title>@yield('title') | Categorias</title>
 </head>
     <body>  
         <header class = "header"> 
             <nav>
                 <ul>
                     <li><a href="{{route('site.produtos')}}"><img class = "imgLogo" src="/content/logo.png" alt=""></a> </li>
-                    <li><a href= "https://www.adapti.info/"> Adapti Soluções WEB</a> </li>
-                    <li><a href="{{route('dashboard')}}"> Dashboard </a></li>
+                    <li><a target = "_blank" href= "https://www.adapti.info/"> Adapti Soluções WEB</a> </li>
+                    <li><a target = "_blank" href="{{route('dashboard')}}"> Dashboard </a></li>
                 </ul> 
             </nav>
         </header>
